@@ -1,0 +1,91 @@
+/* Fonts */
+@font-face {
+    font-family: 'LoveYaLikeASister';
+    src:    url(/assets/fonts/LoveYaLikeASister-Regular.woff2) format('woff2'),
+            url(/assets/fonts/LoveYaLikeASister-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'CabinSketch';
+  src:    url(/assets/fonts/CabinSketch-Regular.woff2) format('woff2'),
+          url(/assets/fonts/CabinSketch-Regular.woff) format('woff'),
+          url(/assets/fonts/CabinSketch-Bold.woff2) format('woff2'),
+          url(/assets/fonts/CabinSketch-Bold.woff) format('woff');  
+}
+
+body{
+  background-color: var(--bs-ccltgreen);
+  font-family: "LoveYaLikeASister", sans-serif;
+}
+
+
+.green-card {
+  padding: 1em 1em 2em 1em;
+  background-color: var(--bs-ccdkgreen);
+  border-radius: 10px;
+  box-shadow: 0px 6px 30px rgba(177, 178, 181, 1);
+  position: relative;
+
+  p {
+    font-size: .9em;   
+  }
+  }
+
+  p {
+    font-size: 1.1em;   
+  }
+
+  .btn {
+    background-color: var(--bs-ccorange);
+    padding: 8px 49px;
+    border-color: var(--bs-ccltgreen);
+    color: var(--bs-ccfawn);
+    font-size: 22px;
+  }
+  
+  .navbar {
+    box-shadow: 0px 6px 30px rgba(177, 178, 181, 0.8);
+    border-style: none;
+  }
+
+
+  .navbar-custom {
+    background-color: var(--bs-ccfawn);
+  }
+
+  ul {
+    font-size: 18px;
+    padding: 0px;
+  }
+
+  .head-text{
+    font-size: 2em;
+  }
+
+  
+
+  .text-block {
+    position: absolute;
+   
+    top: -10px;
+    left: -10px;
+    background-color:var(--bs-ccfawn);
+    color: black;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom-right-radius: 30px 30px;
+      
+  }
+
+  .small-text {
+    font-size: 0.5em;
+    
+  }
+
+/* Remover Hamburger border */
+  .navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    box-shadow: none;
+}
